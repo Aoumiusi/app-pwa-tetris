@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- 背景 -->
+  <rect width="512" height="512" rx="100" ry="100" fill="#333" />
+  
+  <!-- 'T' の形のテトリミノをテトリスの各色で表現 -->
+  <g transform="translate(96, 96) scale(1)">
+    <!-- 中央の縦列 - 複数色のブロック -->
+    <rect x="128" y="0" width="64" height="64" fill="#FF0D72" stroke="#111" stroke-width="3" /> <!-- 赤 -->
+    <rect x="128" y="64" width="64" height="64" fill="#0DC2FF" stroke="#111" stroke-width="3" /> <!-- 水色 -->
+    <rect x="128" y="128" width="64" height="64" fill="#0DFF72" stroke="#111" stroke-width="3" /> <!-- 緑 -->
+    <rect x="128" y="192" width="64" height="64" fill="#F538FF" stroke="#111" stroke-width="3" /> <!-- 紫 -->
+    <rect x="128" y="256" width="64" height="64" fill="#FF8E0D" stroke="#111" stroke-width="3" /> <!-- オレンジ -->
+    
+    <!-- 上部の横列 -->
+    <rect x="0" y="0" width="64" height="64" fill="#FFE138" stroke="#111" stroke-width="3" /> <!-- 黄色 -->
+    <rect x="64" y="0" width="64" height="64" fill="#FFE138" stroke="#111" stroke-width="3" /> <!-- 黄色 -->
+    <rect x="192" y="0" width="64" height="64" fill="#FFE138" stroke="#111" stroke-width="3" /> <!-- 黄色 -->
+    <rect x="256" y="0" width="64" height="64" fill="#FFE138" stroke="#111" stroke-width="3" /> <!-- 黄色 -->
+    
+    <!-- 光沢効果 -->
+    <rect x="2" y="2" width="60" height="12" fill="#ffffff" opacity="0.3" rx="2" ry="2" />
+    <rect x="66" y="2" width="60" height="12" fill="#ffffff" opacity="0.3" rx="2" ry="2" />
+    <rect x="130" y="2" width="60" height="12" fill="#ffffff" opacity="0.3" rx="2" ry="2" />
+    <rect x="194" y="2" width="60" height="12" fill="#ffffff" opacity="0.3" rx="2" ry="2" />
+    <rect x="258" y="2" width="60" height="12" fill="#ffffff" opacity="0.3" rx="2" ry="2" />
+    
+    <rect x="130" y="66" width="60" height="12" fill="#ffffff" opacity="0.3" rx="2" ry="2" />
+    <rect x="130" y="130" width="60" height="12" fill="#ffffff" opacity="0.3" rx="2" ry="2" />
+    <rect x="130" y="194" width="60" height="12" fill="#ffffff" opacity="0.3" rx="2" ry="2" />
+    <rect x="130" y="258" width="60" height="12" fill="#ffffff" opacity="0.3" rx="2" ry="2" />
+  </g>
+</svg>
